@@ -1,0 +1,13 @@
+textarea {
+	display: inline-block;
+	resize: none;
+	border: 2px solid #777777;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+textarea:focus {
+	outline: none !important;
+	border: 2px solid steelblue;
+	box-shadow: 0 0 5px #719ECE;
+}

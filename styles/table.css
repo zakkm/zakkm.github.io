@@ -1,0 +1,20 @@
+table {
+	border-collapse: collapse;
+	caption-side: bottom;
+	width: 100%;
+}
+
+caption {
+	font-style: italic;
+	font-family: roboto;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+th {
+	background-color: #F4F4F4;
+}
