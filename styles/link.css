@@ -1,21 +1,23 @@
 a {
 	text-decoration: none;
+	color: #187bcd;
+}
+
+/*a:link {
 	color: blue;
-}
+}*/
 
-a:link {
+/*a:visited {
 	color:blue;
-}
-
-a:visited {
-	color:purple;
-}
+}*/
 
 a:hover {
-	color:orange;
+	color: orange;
 }
 
-/*a:focus{color:green;}*/
+/*a:focus {
+	color: green;
+}*/
 
 a:active {
 	font-weight: bold;
