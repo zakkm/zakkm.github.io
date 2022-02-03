@@ -7,7 +7,7 @@
 @import url("textarea.css");
 
 ::selection {
-	background-color: steelblue; /*#FFFF99*/
+	background-color: steelblue;
 	color: whitesmoke;
 }
 
@@ -16,7 +16,7 @@ body {
 	position: relative;
 	min-height: 100vh;
 	color: #333333;
-	font-family: Bahnschrift;
+	font-family: "Trebuchet MS", "Segoe UI", "Verdana", "Tahoma", "Arial", Sans-Serif;
 	font-size: large;
 }
 
