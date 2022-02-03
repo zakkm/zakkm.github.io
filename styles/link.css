@@ -1,24 +1,16 @@
-a {
+a:link {
 	text-decoration: none;
-	color: #187bcd;
+	color: steelblue; /* #187bcd */
 }
 
-/*a:link {
-	color: blue;
-}*/
-
-/*a:visited {
-	color:blue;
-}*/
+a:visited {
+	color:firebrick;
+}
 
 a:hover {
-	color: orange;
+	color: coral;
 }
 
-/*a:focus {
-	color: green;
-}*/
-
 a:active {
-	font-weight: bold;
+	text-decoration: underline;
 }
