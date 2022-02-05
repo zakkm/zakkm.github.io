@@ -31,7 +31,7 @@ main {
 	margin: auto;
 }
 
-.header, footer {
+.header, .footer {
 	overflow: hidden;
 	background-color: #f1f1f1;
 	padding: 20px 10px;
