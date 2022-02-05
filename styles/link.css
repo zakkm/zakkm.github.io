@@ -1,6 +1,7 @@
 a:link {
 	text-decoration: none;
 	color: steelblue; /* #187bcd */
+	font-weight: bold;
 }
 
 a:visited {
