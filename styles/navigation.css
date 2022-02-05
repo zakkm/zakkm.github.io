@@ -1,18 +1,35 @@
-.navigation {
-	text-align: center;
-}
-
 .navlist {
+	float: right;
 	list-style-type: none;
-	display: inline;
-	position: relative;
-	margin: 0;
+	display: block;
 	padding: 0;
-	overflow: hidden;
 }
 
 .navitem {
 	display: inline-block;
-	padding-left: 5px;
-	padding-right: 5px;
+}
+
+.navlink:link {
+	color: black;
+	background-color: #e1e1e1;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px; 
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+.navlink:visited {
+	color: black;
+}
+
+.navlink:hover {
+	background-color: slategray;
+	color: whitesmoke;
+}
+
+.navlink:active {
+	background-color: darkslategray;
+	color: whitesmoke;
 }
