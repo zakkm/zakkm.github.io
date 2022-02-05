@@ -17,7 +17,6 @@ body {
 	min-height: 100vh;
 	color: #333333;
 	font-family: "Trebuchet MS", "Segoe UI", "Verdana", "Tahoma", "Arial", Sans-Serif;
-	font-size: large;
 }
 
 main {
@@ -29,6 +28,10 @@ main {
 
 	max-width: 80%;
 	margin: auto;
+}
+
+.pagetitle {
+	text-align: center;
 }
 
 .header, .footer {
