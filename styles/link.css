@@ -1,11 +1,11 @@
 a:link {
-	text-decoration: none;
-	color: steelblue; /* #187bcd */
-	font-weight: bold;
+	text-decoration: underline;
+	color: #006dd0; /* #187bcd */
+	cursor: pointer;
 }
 
 a:visited {
-	color:firebrick;
+	color: olive;
 }
 
 a:hover {
