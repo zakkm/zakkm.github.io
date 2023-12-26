@@ -1,17 +1,14 @@
 a:link {
 	text-decoration: underline;
-	color: #006dd0; /* #187bcd */
+	color: #1352AB; /*#006dd0*/
 	cursor: pointer;
 }
-
 a:visited {
-	color: olive;
+	color: #290f6a;
 }
-
 a:hover {
-	color: coral;
+	color: #ffb347;
 }
-
 a:active {
 	text-decoration: underline;
 }
