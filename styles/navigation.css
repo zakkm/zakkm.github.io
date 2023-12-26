@@ -4,14 +4,12 @@
 	display: block;
 	padding: 0;
 }
-
 .navitem {
 	display: inline-block;
 }
-
 .navlink:link {
 	color: whitesmoke;
-	background-color: steelblue; /* #e1e1e1 */
+	background-color: slategray;
 	text-align: center;
 	padding: 12px;
 	text-decoration: none;
@@ -20,17 +18,14 @@
 	line-height: 25px;
 	border-radius: 4px;
 }
-
 .navlink:visited {
 	color: whitesmoke;
 }
-
 .navlink:hover {
-	background-color: lightslategray;
+	background-color: #707070;
 	color: whitesmoke;
 }
-
 .navlink:active {
-	background-color: slategray;
+	background-color: #616161;
 	color: whitesmoke;
 }
