@@ -1,32 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Zakk - Page Not Found</title>
-	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Zakk's place on the web.">
-	<meta name="keywords" content="Zakk, Website, Blog">
-	<meta name="author" content="Zakk">
 
-	<link rel="stylesheet" href="styles/style.css">
-	<link rel="icon" href="favicon.ico">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Zakk | Personal Website</title>
+    <link rel="icon" href="favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lato', Arial, Helvetica, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            /* ensures footer stays at bottom */
+        }
+
+        h1, h2, .logo {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #34495E;
+            color: #fff;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #f9f9f9;
+        }
+
+        .logo i {
+            margin-right: 8px;
+            font-size: 1.4rem;
+            color: #00bcd4; /* accent against slate blue */
+        }
+
+        .logo-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+        }
+
+        nav .logo {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        nav .links a {
+            margin-left: 1rem;
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav .links a:hover {
+            color: #1ABC9C;
+        }
+
+        main {
+            flex: 1;
+            /* pushes footer down */
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        main h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        main p {
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #334A5E;
+            color: #fff;
+        }
+    </style>
 </head>
+
 <body>
-<header class="header">
-	<nav class="navigation">
-		<ul class="navlist">
-			<li class="navitem"><a class="navlink" href="https://zakk.dev">Home</a></li>
-			<li class="navitem"><a class="navlink" href="https://github.com/zakkm">GitHub</a></li>
-		</ul>
-	</nav>
-</header>
-<main class="main">
-	<h1 class="pagetitle">Ooops! The page you requested cannot be found.</h1>
-	<p style="text-align: center">Make sure the URL you entered is valid. Or go back to the <a href="https://zakk.dev">main page</a>.</p>
-</main>
-<footer class="footer">
-	Copyright &copy; Zakk 2021-2022. All Rights Reserved.
-</footer>
+    <nav>
+        <div class="logo">
+            Zakk
+        </div>
+        <div class="links">
+            <a href="https://github.com/zakkm" target="_blank">GitHub</a>
+        </div>
+    </nav>
+
+    <main>
+        <h1>The page you requested cannot be found.</h1>
+        <p>Make sure the URL you entered is valid. Or go back to the <a href="https://zakk.dev">main page</a>.</p>
+    </main>
+
+    <footer>
+        &copy; 2021 - <span id="year"></span> Zakk. All rights reserved.
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
+
 </html>
